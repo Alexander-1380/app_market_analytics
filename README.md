@@ -51,13 +51,17 @@
 ---
 
 ## 📂 Структура репозитория
-app-market-analytics/
+
+```bash
+app_market_analytics/
 ├── data/
 │   ├── raw/          # сырые данные (JSON/CSV)
 │   ├── interim/      # очищенные данные
 │   ├── processed/    # агрегаты и фичи
 │   └── app_market.db # SQLite база (MVP)
+│
 ├── notebooks/        # Jupyter для EDA и анализа
+│
 ├── src/
 │   ├── scraping/     # парсинг App Store и Google Play
 │   ├── processing/   # очистка, нормализация
@@ -65,11 +69,15 @@ app-market-analytics/
 │   ├── viz/          # визуализация
 │   └── db/           # работа с БД (SQLite + PostgreSQL)
 │       └── db_utils.py
+│
 ├── reports/          # отчёты, презентации
+│   ├── figures/      # графики и визуализации
+│   ├── dag.drawio    # схема пайплайна (редактируемый файл)
+│   └── dag.png       # схема пайплайна (экспорт для README)
+│
 ├── requirements.txt  # зависимости
 ├── docker-compose.yml # (для PostgreSQL)
 └── README.md
-
 ---
 
 ## 📊 Визуализации
