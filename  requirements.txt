@@ -1,0 +1,33 @@
+# Основное
+pandas
+numpy
+polars
+
+# SQL и базы данных
+sqlalchemy
+psycopg2-binary   # для PostgreSQL
+sqlite-utils      # удобно для работы с SQLite
+
+# Визуализация
+matplotlib
+seaborn
+plotly
+
+# Работа с API и парсинг
+requests
+beautifulsoup4
+google-play-scraper
+
+# Временные ряды и статистика
+statsmodels
+scikit-learn
+xgboost
+
+# Оркестрация
+prefect
+
+# Дашборд
+streamlit
+
+# DevOps
+docker
